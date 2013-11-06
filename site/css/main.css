@@ -112,8 +112,8 @@ textarea {
 
     header{
         background-color: #8cb2e1;
-        height: 125px;
-        margin-bottom: 150px;
+        height: 100px;
+        margin-bottom: 175px;
     }
 
     header h1{
@@ -122,21 +122,23 @@ textarea {
         margin: 0 auto;
         margin-top: 20px;
     }
+
     header h1 a{
         color: #fff;
     }
 
     header img{
-        position: absolute;
+        display: none;
+        /*position: absolute;
         right: 10px;
         height: 74px;
         width: 75px;
-        box-shadow: 0px 0px 0px #fff;
+        box-shadow: 0px 0px 0px #fff;*/
     }
 
     header ol{
         position: absolute;
-        top: 120px;
+        top: 100px;
     }
 
     header li{
@@ -253,10 +255,20 @@ textarea {
         list-style-type: circle;
     }
 
+    .enfants img{
+        margin-top: 20px;
+    }
+
+    .chansons span{
+        font-style: italic;
+        color: #000;
+    }
+
     footer{
-        width: 100%;
+        display: none;
+        /*width: 100%;
         margin: 0 auto;
-        color: #3b628c;
+        color: #3b628c;*/
     }
 
     footer ol{
@@ -281,7 +293,7 @@ textarea {
     header{
         background-color: #8cb2e1;
         height: 125px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     header h1{
@@ -294,29 +306,36 @@ textarea {
     }
 
     header img{
-        position: absolute;
+        display: none;
+        /*position: absolute;
         right: 10px;
         top: 40px;
         height: 147px;
         width: 150px;
-        box-shadow: 0px 0px 0px #fff;
+        box-shadow: 0px 0px 0px #fff;*/
     }
 
     header ol{
-        position: absolute;
-        top: 170px;
         padding-left: 0px;
-        margin-left: 5%;
+        margin-left: 3%;
+        margin-top: 10px;
     }
 
     header li{
         list-style-type: circle;
         display: inline;
-        margin-right: 10px;
+        margin-right: -5px;
     }
 
     header li a{
-        color: #8cb2e1;
+        font-family: "Merienda One", "sans-serif";
+        font-size: 14px;
+        color: #fff;
+        background-color: #5a879f;
+        box-shadow: -1px -1px 3px #6996af;
+        padding: 5px 10px 5px 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     header li a:hover{
@@ -324,7 +343,8 @@ textarea {
     }
 
     header li a.actif{
-        color: #3b628c;
+        color: #8cb2e1;
+        background-color: #fff;
     }
 
     .hidden{
@@ -440,9 +460,10 @@ textarea {
     }
 
     footer{
-        width: 400px;
+        display: none;
+        /*width: 400px;
         margin: 0 auto;
-        color: #3b628c;
+        color: #3b628c;*/
     }
 
     footer ol{
@@ -466,8 +487,8 @@ textarea {
 
     header{
         background-color: #8cb2e1;
-        height: 100px;
-        margin-bottom: 100px;
+        height: 125px;
+        margin-bottom: 50px;
     }
 
     header h1{
@@ -489,20 +510,26 @@ textarea {
     }
 
     header ol{
-        position: absolute;
-        top: 100px;
         padding-left: 0px;
-        margin-left: 10%;
+        margin-left: 3%;
+        margin-top: 10px;
     }
 
     header li{
         list-style-type: circle;
         display: inline;
-        margin-right: 10px;
+        margin-right: -5px;
     }
 
     header li a{
-        color: #8cb2e1;
+        font-family: "Merienda One", "sans-serif";
+        font-size: 14px;
+        color: #fff;
+        background-color: #5a879f;
+        box-shadow: -1px -1px 3px #6996af;
+        padding: 5px 10px 5px 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     header li a:hover{
@@ -510,7 +537,8 @@ textarea {
     }
 
     header li a.actif{
-        color: #3b628c;
+        color: #8cb2e1;
+        background-color: #fff;
     }
 
     .hidden{
@@ -542,6 +570,7 @@ textarea {
         position: relative;
         width: 45%;
         left: 175px;
+        padding-bottom: 100px;
     }
 
     .droite img{
@@ -654,14 +683,25 @@ textarea {
         margin-bottom: 20px;
     }
 
+    .map{
+        float: right;
+        width: 45%;
+    }
+
+    .map img{
+        width: 90%;
+        height: 200px;
+    }
+
     .article li{
         list-style-type: circle;
     }
 
     footer{
-        width: 80%;
+        display: none;
+        /*width: 80%;
         margin: 0 auto;
-        color: #3b628c;
+        color: #3b628c;*/
     }
 
     footer ol{
@@ -708,8 +748,6 @@ textarea {
     }
 
     header ol{
-        /*position: absolute;
-        top: 100px;*/
         padding-left: 0px;
         margin-left: 10%;
         margin-top: 15px;
@@ -724,8 +762,9 @@ textarea {
     header li a{
         font-family: "Merienda One", "sans-serif";
         font-size: 14px;
-        color: #8cb2e1;
-        background: linear-gradient(to right, #6e9cb5, #5a879f);
+        color: #fff;
+        background-color: #5a879f;
+        box-shadow: -1px -1px 3px #6996af;
         padding: 5px 10px 5px 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -736,7 +775,8 @@ textarea {
     }
 
     header li a.actif{
-        color: #fff;
+        color: #8cb2e1;
+        background-color: #fff;
     }
 
     .hidden{
@@ -768,6 +808,7 @@ textarea {
         position: relative;
         width: 45%;
         left: 250px;
+        margin-left: 130px;
     }
 
     .droite img{
@@ -887,14 +928,24 @@ textarea {
         margin-bottom: 20px;
     }
 
+    .map{
+        float: right;
+        width: 45%;
+    }
+
+    .map img{
+        width: 90%;
+    }
+
     .article li{
         list-style-type: circle;
     }
 
     footer{
-        width: 80%;
+        display:none;
+        /*width: 80%;
         margin: 0 auto;
-        color: #3b628c;
+        color: #3b628c;*/
     }
 
     footer ol{
@@ -956,7 +1007,8 @@ textarea {
         font-family: "Merienda One", "sans-serif";
         font-size: 14px;
         color: #fff;
-        background: linear-gradient(to right, #6e9cb5, #5a879f);
+        background-color: #5a879f;
+        box-shadow: -1px -1px 3px #6996af;
         padding: 5px 10px 5px 10px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -968,7 +1020,7 @@ textarea {
 
     header li a.actif{
         color: #8cb2e1;
-        background: linear-gradient(to right, #fff, #fff);
+        background-color: #fff;
     }
 
     .hidden{
@@ -1004,7 +1056,7 @@ textarea {
     .droite{
         position: relative;
         width: 45%;
-        left: 275px;
+        left: 250px;
         margin-bottom: 100px;
     }
 
@@ -1098,11 +1150,12 @@ textarea {
 
     .galerie{
         width: 70%;
-        position: relative;
+        /*position: relative;
         left: 75px;
-        top: 20px;
+        top: 20px;*/
         margin: 0 auto;
-        margin-top: 20px;
+        padding-top: 5px;
+        margin-left: 20px;
     }
 
     .galerie img{
@@ -1110,6 +1163,11 @@ textarea {
         box-shadow: 1px 1px 3px #8cb2e1;
         width: 200px;
         height: 150px;
+    }
+
+    .photo{
+        margin-left: 20px;
+        padding-top: 5px;
     }
 
     span{
@@ -1120,14 +1178,24 @@ textarea {
         margin-bottom: 20px;
     }
 
+    .map{
+        float: right;
+        width: 45%;
+    }
+
+    .map img{
+        width: 90%;
+    }
+
     .article li{
         list-style-type: circle;
     }
 
     footer{
-        width: 80%;
+        display:none;
+        /*width: 80%;
         margin: 0 auto;
-        color: #3b628c;
+        color: #3b628c;*/
     }
 }
 
