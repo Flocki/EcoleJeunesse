@@ -459,6 +459,23 @@ textarea {
         list-style-type: circle;
     }
 
+    .enfants p{
+        width: 45%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .enfants img{
+        margin-bottom: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    .chansons span{
+        font-style: italic;
+        color: #000;
+    }
+
     footer{
         display: none;
         /*width: 400px;
@@ -695,6 +712,27 @@ textarea {
 
     .article li{
         list-style-type: circle;
+    }
+
+    .enfants p{
+        width: 45%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .enfants img{
+        margin-bottom: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    .enfants .voir{
+        margin-top:0px;
+    }
+
+    .chansons span{
+        font-style: italic;
+        color: #000;
     }
 
     footer{
@@ -939,6 +977,18 @@ textarea {
 
     .article li{
         list-style-type: circle;
+    }
+
+    .enfants p{
+        width: 30%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .enfants img{
+        margin-bottom: 5px;
+        width: 100%;
+        height: auto;
     }
 
     footer{
@@ -1189,6 +1239,18 @@ textarea {
 
     .article li{
         list-style-type: circle;
+    }
+
+    .enfants p{
+        width: 25%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .enfants img{
+        margin-bottom: 5px;
+        width: 100%;
+        height: auto;
     }
 
     footer{
