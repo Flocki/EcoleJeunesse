@@ -96,6 +96,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html{
+    font-family: Helvetica, Arial, "sans-serif";
+}
+
 @media screen and (max-width: 480px) {
     html{
         width: 100%;
