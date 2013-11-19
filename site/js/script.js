@@ -27,10 +27,17 @@
 
 	};//generateGoogleMap
 
+	/*var makeImageBigger = function(){
+		$(".survol").mouseenter(function(){
+			$(this).css({"position":"absolute","width":"400px","height":"300px"});
+		});
+	};//makeImageBigger*/
+
 	$( function(){
 		//call at page loading
 
 		generateGoogleMap();
+		
 
 	} );
 } ).call( this, jQuery );

@@ -287,7 +287,6 @@ html{
         width: 90%;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px){
@@ -700,6 +699,12 @@ html{
         height: 150px;
     }
 
+    img:hover{
+        width: 400px;
+        height: 300px;
+        position: absolute;
+    }
+
     .photo{
         width: 60%;
         margin-left: 10px;
@@ -964,6 +969,12 @@ html{
         height: 150px;
     }
 
+    .survol:hover{
+        width: 500px;
+        height: 350px;
+        position: absolute;
+    }
+
     .photo{
         width: 70%;
         margin-left: 10px;
@@ -1210,9 +1221,6 @@ html{
 
     .galerie{
         width: 70%;
-        /*position: relative;
-        left: 75px;
-        top: 20px;*/
         margin: 0 auto;
         padding-top: 5px;
         margin-left: 20px;
@@ -1223,6 +1231,12 @@ html{
         box-shadow: 1px 1px 3px #8cb2e1;
         width: 200px;
         height: 150px;
+    }
+
+    .survol:hover{
+        width: 500px;
+        height: 350px;
+        position: absolute;
     }
 
     .photo{
@@ -1260,6 +1274,10 @@ html{
         margin-bottom: 5px;
         width: 100%;
         height: auto;
+    }
+
+    .enfants img:hover{
+        margin-top: -81px;
     }
 
     footer{
