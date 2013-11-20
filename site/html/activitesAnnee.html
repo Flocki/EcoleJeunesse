@@ -23,16 +23,17 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
+        <header itemscope itemtype="http://schema.org/ItemList">
             <h1><a href="../index.html">Ecole Communale de la Jeunesse</a></h1>
             <img src="../img/dessinEnfant.png" alt="L'école vue par un enfant" width="278" height="275" />
+            <meta itemprop="itemListOrder" content="Unordered" />
             <ol>
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="./equipe.html">&Eacute;quipe pédagogique</a></li>
-                <li><a class="actif" href="./activites.html">Activités</a></li>
-                <li><a href="./galerie.html">Galerie</a></li>
-                <li><a href="./enfants.html">Coin des enfants</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a itemprop="itemListElement" href="../index.html">Accueil</a></li>
+                <li><a itemprop="itemListElement" href="./equipe.html">&Eacute;quipe pédagogique</a></li>
+                <li><a itemprop="itemListElement" class="actif" href="./activites.html">Activités</a></li>
+                <li><a itemprop="itemListElement" href="./galerie.html">Galerie</a></li>
+                <li><a itemprop="itemListElement" href="./enfants.html">Coin des enfants</a></li>
+                <li><a itemprop="itemListElement" href="./contact.html">Contact</a></li>
             </ol>
         </header>
         <section>
@@ -63,7 +64,6 @@
                         <dt><a href="ficheEvenements.html">Eclaire-moi&nbsp;: Mettons nous au courant &hellip; électrique (4e, 5e et 6e primaire)</a></dt>
                         <dt><a href="ficheEvenements.html">Construis ta station météo (4e, 5e et 6e primaire)</a></dt>
                         <dt><a href="ficheEvenements.html">Des rivières au robinet (4e, 5e et 6e primaire)</a></dt>
-
                 </dl>
             </article>
         </section>
@@ -79,17 +79,17 @@
             <h1 class="hidden">Dessins d'enfants</h1>
         </section>
         <footer>
-            <ul>
-                <li><a href="menu.html">Menu des dîners chauds</a></li>
-                <li><a href="reglement.html">Règlement d'ordre intérieur</a></li>
-                <li><a href="calendrierConge.html">Congés scolaires</a></li>
-                <li><a href="galerieBricolages.html">Galerie des bricolages</a></li>
+            <ul itemscope itemtype="http://schema.org/ItemList">
+                <li><a itemprop="itemListElement" href="menu.html">Menu des dîners chauds</a></li>
+                <li><a itemprop="itemListElement" href="reglement.html">Règlement d'ordre intérieur</a></li>
+                <li><a itemprop="itemListElement" href="calendrierConge.html">Congés scolaires</a></li>
+                <li><a itemprop="itemListElement" href="galerieBricolages.html">Galerie des bricolages</a></li>
             </ul>
-            <address>
-                Ecole de la Jeunesse<br />
-                Rue de la Jeunesse, 56<br />
-                4100 Seraing<br />
-                Tel&nbsp;: 04 338 10 42
+            <address itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="name">Ecole de la Jeunesse</span><br />
+                <span itemprop="streetAddress">Rue de la Jeunesse, 56</span><br />
+                <span itemprop="addressLocality">4100 Seraing</span><br />
+                <span itemprop="telephone">Tel&nbsp;: 04 338 10 42</span>
             </address>
             <p>
                 Created and designed by Florence Rézette&copy;
