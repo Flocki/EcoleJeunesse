@@ -233,7 +233,6 @@ html{
     }
 
     dt{
-        margin-left: 0px;
         margin-bottom: 20px;
         width: 100%;
         color: #000;
@@ -261,8 +260,26 @@ html{
         box-shadow: 1px 1px 3px #8cb2e1;
     }
 
-    span{
-        color: #8cb2e1;
+    .pageContact{
+        margin-bottom: 50px;
+    }
+
+    .pageContact p{
+        margin-bottom: 10px;
+    }
+
+    .pageContact ul{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .pageContact img{
+        width: 54px;
+        height: 38px;
+        box-shadow: 0px 0px 0px #fff;
+        padding: 5px;
+        position: absolute;
+        opacity: 0.7;
     }
 
     .article li{
@@ -429,10 +446,10 @@ html{
     dd{
         font-style: italic;
         color: #8cb2e1;
+        margin-left: 0px;
     }
 
     dt{
-        margin-left: 50px;
         margin-bottom: 20px;
         width: 350px;
         color: #000;
@@ -462,8 +479,26 @@ html{
         height: 150px;
     }
 
-    span{
-        color: #8cb2e1;
+    .pageContact{
+        margin-bottom: 50px;
+    }
+
+    .pageContact p{
+        margin-bottom: 10px;
+    }
+
+    .pageContact ul{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .pageContact img{
+        width: 54px;
+        height: 38px;
+        box-shadow: 0px 0px 0px #fff;
+        padding: 5px;
+        position: absolute;
+        opacity: 0.7;
     }
 
     .article li{
@@ -656,10 +691,10 @@ html{
     dd{
         font-style: italic;
         color: #8cb2e1;
+        margin-left: 0px;
     }
 
     dt{
-        margin-left: 50px;
         margin-bottom: 20px;
         width: 350px;
         color: #000;
@@ -711,13 +746,42 @@ html{
         padding-top: 5px;
     }
 
-    span{
-        color: #8cb2e1;
+    .pageContact{
+        margin-bottom: 50px;
+    }
+
+    .pageContact p{
+        margin-bottom: 10px;
+    }
+
+    .pageContact ul{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .pageContact img{
+        width: 54px;
+        height: 38px;
+        box-shadow: 0px 0px 0px #fff;
+        padding: 5px;
+        position: absolute;
+        opacity: 0.7;
+    }
+
+    .map{
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .map img{
+        width: 100%;
+        height: auto;
     }
 
     #gmap {
-    background: #ccc;
-    height: 450px;
+        background: #ccc;
+        height: 300px;
+        margin-bottom: 20px;
     }
 
     #gmap img {
@@ -919,10 +983,10 @@ html{
     dd{
         font-style: italic;
         color: #8cb2e1;
+        margin-left: 0px;
     }
 
     dt{
-        margin-left: 50px;
         margin-bottom: 20px;
         width: 350px;
         color: #000;
@@ -981,13 +1045,42 @@ html{
         padding-top: 5px;
     }
 
-    span{
-        color: #8cb2e1;
+    .pageContact{
+        margin-bottom: 50px;
+    }
+
+    .pageContact p{
+        margin-bottom: 10px;
+    }
+
+    .pageContact ul{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .pageContact img{
+        width: 54px;
+        height: 38px;
+        box-shadow: 0px 0px 0px #fff;
+        padding: 5px;
+        position: absolute;
+        opacity: 0.7;
+    }
+
+    .map{
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .map img{
+        width: 100%;
+        height: auto;
     }
 
     #gmap {
         background: #ccc;
-        height: 450px;
+        height: 300px;
+        margin-bottom: 20px;
     }
 
     #gmap img {
@@ -1038,60 +1131,71 @@ html{
     }
 
     header{
-        background-image: url('../img/banniere.jpg');
-        background-size:1400px 100px;
+        width: 100%;
+        background-image: url('../img/banniere.png');
+        background-size:1350px 100px;
+        background-repeat: no-repeat;
         height: 100px;
         margin-bottom: 50px;
+        margin-top: 20px;
     }
 
     header h1{
         width: 600px;
         margin: 0 auto;
-        margin-top: 20px;
+        padding-top: 10px;
     }
     header h1 a{
         color: #fff;
     }
 
     header img{
-        position: absolute;
+        display: none;
+        /*position: absolute;
         right: 10px;
         top: 10px;
         height: 147px;
         width: 150px;
-        box-shadow: 0px 0px 0px #fff;
+        box-shadow: 0px 0px 0px #fff;*/
     }
 
     header ol{
         padding-left: 0px;
-        margin-left: 20%;
-        margin-top: 29px;
+        margin: 16px auto;
+        width: 60%;
     }
 
-    header li{
+    header ol li{
         list-style-type: circle;
         display: inline;
-        margin-right: -5px;
+        width: 170px;
     }
 
     header li a{
         font-family: "Merienda One", "sans-serif";
         font-size: 14px;
+        width: 170px;
+        height: ;
         color: #fff;
         background-color: #5a879f;
         box-shadow: -1px -1px 3px #6996af;
-        padding: 5px 10px 5px 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        padding: 5px 10px 3px 10px;
+        width: 170px;
     }
 
     header li a:hover{
         color: #3b628c;
+        padding-bottom: 15px;
+        position: relative;
+        top: -12px;
     }
 
     header li a.actif{
         color: #8cb2e1;
         background-color: #fff;
+        padding-bottom: 15px;
+        position: relative;
+        top: -12px;
     }
 
     .hidden{
@@ -1101,6 +1205,14 @@ html{
     section{
         width: 80%;
         margin: 0 auto;
+    }
+
+    .equipe{
+        width: 50%;
+    }
+
+    .equipe p{
+        width: 90%;
     }
 
     .equipe img{
@@ -1184,10 +1296,10 @@ html{
     dd{
         font-style: italic;
         color: #8cb2e1;
+        margin-left: 0px;
     }
 
     dt{
-        margin-left: 50px;
         margin-bottom: 20px;
         width: 350px;
         color: #000;
@@ -1230,12 +1342,12 @@ html{
         margin-bottom: 10px;
         box-shadow: 1px 1px 3px #8cb2e1;
         width: 200px;
-        height: 150px;
+        height: auto;
     }
 
     .survol:hover{
         width: 500px;
-        height: 350px;
+        height: auto;
         position: absolute;
     }
 
@@ -1244,13 +1356,36 @@ html{
         padding-top: 5px;
     }
 
-    span{
-        color: #8cb2e1;
+    .pageContact{
+        margin-bottom: 40px;
+    }
+
+    .pageContact p{
+        margin-bottom: 10px;
+    }
+
+    .pageContact ul{
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .pageContact img{
+        width: 54px;
+        height: 38px;
+        box-shadow: 0px 0px 0px #fff;
+        padding: 5px;
+        position: absolute;
+        opacity: 0.7;
     }
 
     .map{
         width: 40%;
-        margin-right: 0px;
+        margin-right: 10px;
+    }
+
+    .map img{
+        width: 100%;
+        height: auto;
     }
 
     #gmap {
@@ -1281,10 +1416,31 @@ html{
     }
 
     footer{
-        display:none;
-        /*width: 80%;
+        position: relative;
+        width: 80%;
         margin: 0 auto;
-        color: #3b628c;*/
+        margin-top: 50px;
+        color: #3b628c;
+        font-size: 14px;
+        border-top: 1px solid #b0461c;
+    }
+
+    footer ul{
+        float: left;
+    }
+
+    footer a{
+        color: #b0461c;
+    }
+
+    footer p{
+        float: right;
+        margin-top: -20px;
+    }
+
+    footer address{
+        padding-top: 15px;
+        padding-left: 35%;
     }
 }
 
