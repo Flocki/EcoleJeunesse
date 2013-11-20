@@ -296,14 +296,28 @@ html{
     }
 
     footer{
+        width: 90%;
+        margin: 0 auto;
         color: #3b628c;
-        padding: 10px;
+        font-size: 14px;
+        border-top: 1px solid #b0461c;
+    }
+
+    
+
+    footer a{
+        color: #b0461c;
     }
 
     footer p{
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
     }
+
+    footer address{
+        padding-top: 15px;
+        padding-left: 5%;
+    }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px){
@@ -523,14 +537,28 @@ html{
     }
 
     footer{
-        display: none;
-        /*width: 400px;
+        width: 90%;
         margin: 0 auto;
-        color: #3b628c;*/
+        color: #3b628c;
+        font-size: 14px;
+        border-top: 1px solid #b0461c;
     }
 
-    footer ol{
-        display: none;
+    footer ul{
+        float: left;
+    }
+
+    footer a{
+        color: #b0461c;
+    }
+
+    footer p{
+        width: 60%;
+    }
+
+    footer address{
+        padding-top: 15px;
+        padding-left: 55%;
     }
 }
 
@@ -815,14 +843,28 @@ html{
     }
 
     footer{
-        display: none;
-        /*width: 80%;
+        width: 80%;
         margin: 0 auto;
-        color: #3b628c;*/
+        color: #3b628c;
+        font-size: 14px;
+        border-top: 1px solid #b0461c;
     }
 
-    footer ol{
-        display: none;
+    footer ul{
+        float: left;
+    }
+
+    footer a{
+        color: #b0461c;
+    }
+
+    footer p{
+        width: 60%;
+    }
+
+    footer address{
+        padding-top: 15px;
+        padding-left: 55%;
     }
 }
 
@@ -1105,14 +1147,30 @@ html{
     }
 
     footer{
-        display:none;
-        /*width: 80%;
+        font-size: 14px;
+        width: 80%;
         margin: 0 auto;
-        color: #3b628c;*/
+        color: #3b628c;
+        border-top: 1px solid #b0461c;
     }
 
-    footer ol{
-        display: none;
+    footer ul{
+        float: left;
+    }
+
+    footer a{
+        color: #b0461c;
+    }
+
+    footer p{
+        float: right;
+        margin-top: -40px;
+        width: 40%;
+    }
+
+    footer address{
+        padding-top: 15px;
+        padding-left: 35%;
     }
 }
 
